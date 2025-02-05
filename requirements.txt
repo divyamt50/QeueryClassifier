@@ -1,0 +1,10 @@
+Django>=4.2,<5.0
+gunicorn
+joblib
+numpy
+pandas
+scikit-learn
+scipy
+openpyxl  # For reading Excel files
+psycopg2-binary  # Required if using PostgreSQL
+djangorestframework  # If using Django REST framework
