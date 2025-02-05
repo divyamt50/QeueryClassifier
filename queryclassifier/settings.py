@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-7usyz+kbe8^*unriio15016*fmuy_nh@2)2*m&$#pk-_9l-e!g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["qeueryclassifier.onrender.com", "localhost", "127.0.0.1"]
 
 
 # Application definition
