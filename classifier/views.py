@@ -2,6 +2,8 @@ import joblib
 import pickle
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
+from django.http import HttpResponse
+
 
 # Load the trained model and vectorizer
 model = joblib.load("query_classifier.pkl")
@@ -18,3 +20,7 @@ def classify_query(request):
     category = "Educational" if prediction == 1 else "Non-Educational"
 
     return Response({"query": query, "category": category})
+
+
+def home(request):
+    return HttpResponse("Welcome to Query Classifier API!")

@@ -3,7 +3,7 @@ gunicorn
 joblib
 numpy
 pandas
-scikit-learn
+scikit-learn==1.6.0
 scipy
 openpyxl  # For reading Excel files
 psycopg2-binary  # Required if using PostgreSQL
